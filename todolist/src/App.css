@@ -1,0 +1,34 @@
+.fa-plus{
+  position: relative;
+  left: -20px;
+}
+input{
+  width: 96%;
+}
+h2{
+  text-align: center;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li{
+  margin-top: 20px;
+  border: 2px solid rgb(217, 56, 56);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+
+li span {
+  float: right;
+  position: relative;
+  
+}
+
+button {
+  margin-top: 50px;
+}

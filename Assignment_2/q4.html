@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+	<script type="text/javascript">
+		function digitProd(n1, n2){
+			let sum = 0;
+			let str1 = n1.toString();
+			let str2 = n2.toString();
+
+			let maxLength = Math.max(str1.length, str2.length);
+
+
+			str1 = str1.padStart(maxLength, '0');
+		    str2 = str2.padStart(maxLength, '0');
+		    
+		    
+		    for (let i = maxLength - 1; i >= 0; i--) {
+		        sum += parseInt(str1[i]) * parseInt(str2[i]);
+		    }
+
+		    return sum;
+
+		}
+	</script>
+</body>
+</html>
